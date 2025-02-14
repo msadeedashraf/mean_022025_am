@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path')
 
 
-fs.readFile()
 
 
 fs.writeFile(path.join(__dirname, 'myFiles','sadeed.txt'),'We are learning node' ,(err, data) => {
