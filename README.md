@@ -28,4 +28,6 @@ Create a project/app folder
 > create a root file(index.js)
 > npm init
 > npm install package-name (npm install date-fns)
-> 
+> create the .gitignore file and add node_modules
+> npm i date-fns
+> npm i uuid
