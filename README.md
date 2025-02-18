@@ -21,4 +21,11 @@
 
 
 ### Creating a Node Project
+
+Create a project/app folder
+> mkdir app-name
+> cd app-name   
+> create a root file(index.js)
 > npm init
+> npm install package-name (npm install date-fns)
+> 
