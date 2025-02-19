@@ -27,7 +27,7 @@ Create a project/app folder
 > cd app-name   
 > create a root file(index.js)
 > npm init
-> npm install package-name (npm install date-fns)
+> npm install package-name (npm install nodemon)
 > create the .gitignore file and add node_modules
 > npm i date-fns
 > npm i uuid
