@@ -10,6 +10,40 @@ const app = express();
 
 //app.listen(PORT, ()=>{console.log('Checking the server '+ PORT)})
 app.listen(3800);
+
+/*
+//Chaining Example 1
+app.get(
+  "/testing(.html)?",
+  (req, res, next) => {
+    console.log("going to testing.html");
+    next();
+  },
+  (req, res, next) => {
+    console.log("Hello");
+    next();
+  },
+  (req, res, next) => {
+    res.send("Hi Testing");
+  }
+);
+
+*/
+//Chaining Example 2
+const first = (req, res, next)=> { console.log("going to testing.html");
+    next();};
+
+    const second = (req, res, next)=> { console.log("Hello Testing");
+    next();};
+
+    const third = (req, res, next)=> {res.send("Testing Finished");};
+
+
+app.get('/testing(.html)?', [first, second, third]);
+
+
+//app.get('/', (req, res)=>{});
+
 /*
 app.get('/', (req, res)=>{
 
@@ -28,6 +62,7 @@ app.get('/index.html', (req, res)=>{
 //Regular Expressions:  https://www.w3schools.com/jsref/jsref_obj_regexp.asp
 
 //Routes Section Start
+/*
 app.get("^/$|index(.html)?", (req, res) => {
   res.sendFile(path.join(__dirname, "views", "index.html"));
 });
@@ -53,17 +88,15 @@ app.get("/job_search(.html)?", (req, res) => {
 });
 
 
-app.get("/*", (req, res) => {
-    res.sendFile(path.join(__dirname, "views", "error.html"));
-  });
+
   
+  app.get("/*", (req, res) => {
+      //res.sendFile(path.join(__dirname, "views", "error.html"));
+      res.status(404).sendFile(path.join(__dirname, "views", "error_404.html"));
+    });
+
+*/
 
 //Routes Section Ends
 
-
-
 //Refactor Routes Section using chaining
-
-//app.get()
-
-//app.get('/', (req, res)=>{});
