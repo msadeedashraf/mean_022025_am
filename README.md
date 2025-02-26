@@ -36,4 +36,4 @@ Create a project/app folder
 [Express](https://expressjs.com/)
 
 > npm install express --save
-> 
+> npm i cors

@@ -17,11 +17,11 @@ const logwriter = async (logType, msg , logName) => {
     try
     {
 
-        if (!fs.existsSync(path.join(__dirname, 'myLogs'))) {
-            await fspromises.mkdir(path.join(__dirname, 'myLogs'));
+        if (!fs.existsSync(path.join(__dirname, '..','myLogs'))) {
+            await fspromises.mkdir(path.join(__dirname, '..','myLogs'));
         }
 
-    await fspromises.appendFile(path.join(__dirname, 'myLogs',logName), logEvent);
+    await fspromises.appendFile(path.join(__dirname, '..','myLogs',logName), logEvent);
 
     }
     catch(err)
@@ -29,12 +29,14 @@ const logwriter = async (logType, msg , logName) => {
         console.log(err);
     }
     
-
-
 }
+const myLogger = (req, res, next)=>{
+    const logtext = `${req.method} \t ${req.headers.origin} \t ${req.url}\t${req.path}`;
+    logwriter('INFO' , logtext, 'myLogs.txt' );
+    console.log(`${req.method} ${req.path}`);
+    next();
+  }
 
-
-
-module.exports = logwriter;
+module.exports = {myLogger, logwriter};
 
 

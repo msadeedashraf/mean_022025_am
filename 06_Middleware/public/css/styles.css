@@ -59,7 +59,7 @@ footer{background-color: #333;
 
     #hero
     {
-        background-image: url("images/mainPic.jpg");
+        background-image: url("../images/mainPic.jpg");
         background-size: cover;
         display: flex;
         justify-content: center;

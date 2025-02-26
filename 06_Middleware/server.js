@@ -1,110 +1,48 @@
 //console.log('Hello')
 
 const path = require("path");
+const cors = require('cors');
+const {myLogger } = require('./middleware/logwriter');
 
 const express = require("express");
+const exp = require("constants");
 const app = express();
-//const PORT = 3700;
+const PORT = process.env.PORT|| 3800;
 
-//app.get('/',(req, res)=>{res.send('Hello World')});
 
-//app.listen(PORT, ()=>{console.log('Checking the server '+ PORT)})
-app.listen(3900);
 
+app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.urlencoded({extended:false}));
+app.use(express.json());
+
+//custom middleware
+///app.use((req, res, next)=>{});
 /*
-//Chaining Example 1
-app.get(
-  "/testing(.html)?",
-  (req, res, next) => {
-    console.log("going to testing.html");
-    next();
+app.use((req, res, next)=>{
+  const logtext = `${req.method} \t ${req.headers.origin} \t ${req.url}\t${req.path}`;
+  logwriter('INFO' , logtext, 'myLogs.txt' );
+  console.log(`${req.method} ${req.path}`);
+  next();
+});
+*/
+
+//custom middleware logger
+app.use(myLogger);
+
+//Cross Origin Resource Sharing
+const myWhiteList = ['https://www.teczila.com','https://www.google.com','http://127.0.0.1:5500','http://localhost:3800']
+
+const corsOptions = {
+  origin: (origin, callback) => {
+      if (myWhiteList.indexOf(origin) !== -1 || !origin) {
+          callback(null, true)
+      } else {
+          callback(new Error('Not allowed by CORS'));
+      }
   },
-  (req, res, next) => {
-    console.log("Hello");
-    next();
-  },
-  (req, res, next) => {
-    res.send("Hi Testing");
-  }
-);
-
-*/
-//Chaining Example 2
-/*
-const first = (req, res, next)=> { console.log("going to testing.html");
-    next();};
-
-    const second = (req, res, next)=> { console.log("Hello Testing");
-    next();};
-
-    const third = (req, res, next)=> {res.send("Testing Finished");};
-
-
-app.get('/testing(.html)?', [first, second, third]);
-*/
-
-//app.get('/', (req, res)=>{});
-
-/*
-app.get('/', (req, res)=>{
-
-//res.sendFile('./views/index.html', {root:__dirname});
-res.sendFile(path.join(__dirname, 'views', 'index.html'));
-
-});
-    
-app.get('/index.html', (req, res)=>{
-
-    res.sendFile(path.join(__dirname, 'views', 'index.html'));
-    
-    });
-*/
-
-//Regular Expressions:  https://www.w3schools.com/jsref/jsref_obj_regexp.asp
-
-//Routes Section Start
-/*
-app.get("^/$|index(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "index.html"));
-});
-
-app.get("/privacy(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "privacy.html"));
-});
-
-app.get("/contact(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "contact.html"));
-});
-
-app.get("/terms(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "terms.html"));
-});
-
-app.get("/job_listing(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "job_listing.html"));
-});
-
-app.get("/job_search(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "jobs/job_search.html"));
-});
-
-
-
-  
-  app.get("/*", (req, res) => {
-      //res.sendFile(path.join(__dirname, "views", "error.html"));
-      res.status(404).sendFile(path.join(__dirname, "views", "error_404.html"));
-    });
-
-*/
-
-//Routes Section Ends
-
-
-
-//Refactor Routes Section using chaining
-
-//
+  optionsSuccessStatus: 200
+}
+app.use(cors(corsOptions));
 
 const sendHTMLFile = (filePath) => (req, res) => {
   res.sendFile(path.join(__dirname, "views",filePath));
@@ -119,3 +57,5 @@ routes.forEach( route => {
 }
 )
 app.get("/job_search(.html)?", sendHTMLFile('jobs/job_search.html'));
+
+app.listen(PORT, ()=>{console.log('Checking the server '+ PORT)})
