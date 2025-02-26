@@ -2,7 +2,8 @@
 
 const path = require("path");
 const cors = require('cors');
-const {myLogger } = require('./middleware/logwriter');
+const {myLogger, logwriter } = require('./middleware/logwriter');
+const errorLogger = require('./middleware/errorLogger');
 
 const express = require("express");
 const exp = require("constants");
@@ -57,5 +58,24 @@ routes.forEach( route => {
 }
 )
 app.get("/job_search(.html)?", sendHTMLFile('jobs/job_search.html'));
+
+
+app.all(`*`, (req, res) => {
+  //res.sendFile(path.join(__dirname, "views", "error.html"));
+  res.status(404).sendFile(path.join(__dirname, "views", "error.html"));
+});
+
+//To Log Error and send the response
+/*
+app.use((err, req, res, next)=>{
+ 
+  //console.error(err.stack);
+  logwriter('ERROR', `${err.stack}\t${err.message}`, 'errorsLog.txt')
+  res.status(500).send(err.message);
+  
+});
+*/
+app.use(errorLogger);
+
 
 app.listen(PORT, ()=>{console.log('Checking the server '+ PORT)})

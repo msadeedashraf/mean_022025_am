@@ -1,0 +1,2 @@
+ERROR	2025-02-26 1128: 	f5554406-3911-47d9-beed-a77e68562fb9	Error	Not allowed by CORS
+ERROR	2025-02-26 1128: 	b7930728-7fea-4174-af71-200fc3abbfe2	Error	Not allowed by CORS
