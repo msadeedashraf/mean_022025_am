@@ -1,0 +1,14 @@
+ERROR	2025-02-26 1128: 	f5554406-3911-47d9-beed-a77e68562fb9	Error	Not allowed by CORS
+ERROR	2025-02-26 1128: 	b7930728-7fea-4174-af71-200fc3abbfe2	Error	Not allowed by CORS
+ERROR	2025-02-27 0937: 	747c1415-11a3-4720-a2b2-a30559c5756d	TypeError	res.accepts is not a function
+ERROR	2025-02-27 0940: 	50b8b4c2-e8f3-4a6e-a3b4-42dbbebfa0d7	TypeError	res.accept is not a function
+ERROR	2025-02-27 1057: 	4919aec6-312c-4ce2-9595-ebc86ad08d17	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1057: 	196bfeac-35e0-4408-9fb0-29edc62c4d83	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1058: 	f40a7e99-9169-4eda-9ffa-dd27ab683527	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1105: 	b0ffaecf-22c1-49ca-947b-5264c7b6f5d0	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1105: 	3bb58b6b-9d8a-463e-8e05-8775366dcf92	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1106: 	c5ce8351-6075-4562-b2ad-5223163d80f3	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1106: 	3f3b203a-b841-4b91-b59b-1c3804017459	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1107: 	0b757365-1c5e-4bb9-95e2-a0b7f1d20dab	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1107: 	e2b0f5db-9b9c-44f5-99ad-0429a8e74d5e	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1107: 	39ba4321-a45f-4286-a66b-ac37a811ee2f	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'

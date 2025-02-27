@@ -60,10 +60,14 @@ routes.forEach( route => {
 app.get("/job_search(.html)?", sendHTMLFile('jobs/job_search.html'));
 
 
+
 app.all(`*`, (req, res) => {
   //res.sendFile(path.join(__dirname, "views", "error.html"));
   res.status(404).sendFile(path.join(__dirname, "views", "error.html"));
 });
+
+
+
 
 //To Log Error and send the response
 /*
