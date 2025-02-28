@@ -11,8 +11,6 @@ const exp = require("constants");
 const app = express();
 const PORT = process.env.PORT|| 3800;
 
-
-
 //app.use(express.static(path.join(__dirname, 'public')))
 app.use('/',express.static(path.join(__dirname, 'public')))
 app.use('/job-search',express.static(path.join(__dirname, 'public')))
@@ -38,14 +36,11 @@ const corsOptions = {
 }
 app.use(cors(corsOptions));
 
-
-
-
-
 //Routes
 app.use('/', require('./routes/root'));
 //To Handle SubFolders Routes
 //app.use('/job-search', require('./routes/job-search'));
+
 //API Routes
 app.use('/joblisting', require('./routes/api/joblisting'));
 

@@ -37,3 +37,11 @@ Create a project/app folder
 
 > npm install express --save
 > npm i cors
+
+### API testing clients
+
+[POSTMAN](https://www.postman.com)
+
+[Thunder Client](https://www.thunderclient.com/)
+
+[SWAGGER](https://swagger.io/)

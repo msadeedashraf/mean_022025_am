@@ -12,3 +12,4 @@ ERROR	2025-02-27 1106: 	3f3b203a-b841-4b91-b59b-1c3804017459	Error	ENOENT: no su
 ERROR	2025-02-27 1107: 	0b757365-1c5e-4bb9-95e2-a0b7f1d20dab	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
 ERROR	2025-02-27 1107: 	e2b0f5db-9b9c-44f5-99ad-0429a8e74d5e	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
 ERROR	2025-02-27 1107: 	39ba4321-a45f-4286-a66b-ac37a811ee2f	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-28 1039: 	c351bae4-bbc4-42c2-9869-f387b7cede06	TypeError	Cannot read properties of undefined (reading '0')
