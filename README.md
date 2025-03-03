@@ -45,3 +45,10 @@ Create a project/app folder
 [Thunder Client](https://www.thunderclient.com/)
 
 [SWAGGER](https://swagger.io/)
+
+
+### Model View Controller
+[MVC](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
+
+### Design Patterns 
+[GoF](https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns)

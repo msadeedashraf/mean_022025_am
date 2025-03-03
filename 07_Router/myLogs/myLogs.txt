@@ -332,3 +332,4 @@ INFO	2025-03-03 0847: 	ca69b612-83cc-4084-83fa-6f9d5b03fed5	POST 	 undefined 	 /
 INFO	2025-03-03 0849: 	528fb9c4-571c-4df2-a464-20c34d93ffe3	PUT 	 undefined 	 /joblisting	/joblisting
 INFO	2025-03-03 0850: 	803873c5-02be-4845-b656-4d74ad784e27	DELETE 	 undefined 	 /joblisting	/joblisting
 INFO	2025-03-03 0851: 	6ac97185-3424-4466-8f6b-291329096075	GET 	 undefined 	 /joblisting/6	/joblisting/6
+INFO	2025-03-03 1006: 	fbabba70-5b96-496e-89db-ac537f49b0ff	GET 	 undefined 	 /joblisting/6	/joblisting/6
