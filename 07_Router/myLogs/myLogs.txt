@@ -318,3 +318,17 @@ INFO	2025-02-28 1041: 	cbab39b7-0afd-4a71-a46a-e85969881dfc	GET 	 undefined 	 /j
 INFO	2025-02-28 1041: 	0bd0c6ad-0a06-4cb2-8043-634a448b3ea1	POST 	 undefined 	 /joblisting	/joblisting
 INFO	2025-02-28 1042: 	ddf0a619-709c-40be-a8e2-88252fce8af1	GET 	 undefined 	 /joblisting	/joblisting
 INFO	2025-02-28 1042: 	b06f1e92-ac6e-45b5-825f-4405d15b3a10	POST 	 undefined 	 /joblisting	/joblisting
+INFO	2025-03-03 0831: 	d9b1d094-e722-46eb-bf27-cf659ddfa745	GET 	 undefined 	 /	/
+INFO	2025-03-03 0831: 	c4474f0b-dfde-455a-a850-f93bcb023725	GET 	 undefined 	 /joblisting.html	/joblisting.html
+INFO	2025-03-03 0831: 	b20fe6e2-31dc-4f3e-a0c2-4cc4840a8a89	GET 	 undefined 	 /favicon.ico	/favicon.ico
+INFO	2025-03-03 0831: 	b0179164-b485-4245-a24f-bb931d9ace8d	GET 	 undefined 	 /joblisting	/joblisting
+INFO	2025-03-03 0834: 	5f3572a4-bbb4-4c99-b714-b0c2397bfec2	GET 	 undefined 	 /joblisting	/joblisting
+INFO	2025-03-03 0834: 	66fa7a92-1313-411b-b40a-b34651597a6d	POST 	 undefined 	 /joblisting	/joblisting
+INFO	2025-03-03 0838: 	846a0cf1-cd82-43de-a745-f8ca14fcb3fd	GET 	 undefined 	 /joblisting	/joblisting
+INFO	2025-03-03 0840: 	7c8ba4f3-b869-421f-b6a4-ab8f17176ea3	POST 	 undefined 	 /joblisting	/joblisting
+INFO	2025-03-03 0845: 	6765d1e1-165f-4f09-95b4-92ef453c7892	POST 	 undefined 	 /joblisting	/joblisting
+INFO	2025-03-03 0847: 	506443d3-3f2d-4e0c-8f0f-7445ddf5b9d3	POST 	 undefined 	 /joblisting	/joblisting
+INFO	2025-03-03 0847: 	ca69b612-83cc-4084-83fa-6f9d5b03fed5	POST 	 undefined 	 /joblisting	/joblisting
+INFO	2025-03-03 0849: 	528fb9c4-571c-4df2-a464-20c34d93ffe3	PUT 	 undefined 	 /joblisting	/joblisting
+INFO	2025-03-03 0850: 	803873c5-02be-4845-b656-4d74ad784e27	DELETE 	 undefined 	 /joblisting	/joblisting
+INFO	2025-03-03 0851: 	6ac97185-3424-4466-8f6b-291329096075	GET 	 undefined 	 /joblisting/6	/joblisting/6
