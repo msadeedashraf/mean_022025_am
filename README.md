@@ -14,6 +14,9 @@
 >nodemon
 >dateformat
 >twilio
+>bcrypt
+
+
 
 
 ### Package Managers NPM, Yarn, PNPM, and Bun
@@ -37,6 +40,9 @@ Create a project/app folder
 
 > npm install express --save
 > npm i cors
+
+### To [Hash](https://www.geeksforgeeks.org/what-is-hashing/) your Passwords 
+[bcrypt](https://www.npmjs.com/package/bcrypt)
 
 ### API testing clients
 
