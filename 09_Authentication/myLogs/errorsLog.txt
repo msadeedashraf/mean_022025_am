@@ -1,0 +1,25 @@
+ERROR	2025-02-26 1128: 	f5554406-3911-47d9-beed-a77e68562fb9	Error	Not allowed by CORS
+ERROR	2025-02-26 1128: 	b7930728-7fea-4174-af71-200fc3abbfe2	Error	Not allowed by CORS
+ERROR	2025-02-27 0937: 	747c1415-11a3-4720-a2b2-a30559c5756d	TypeError	res.accepts is not a function
+ERROR	2025-02-27 0940: 	50b8b4c2-e8f3-4a6e-a3b4-42dbbebfa0d7	TypeError	res.accept is not a function
+ERROR	2025-02-27 1057: 	4919aec6-312c-4ce2-9595-ebc86ad08d17	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1057: 	196bfeac-35e0-4408-9fb0-29edc62c4d83	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1058: 	f40a7e99-9169-4eda-9ffa-dd27ab683527	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1105: 	b0ffaecf-22c1-49ca-947b-5264c7b6f5d0	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1105: 	3bb58b6b-9d8a-463e-8e05-8775366dcf92	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1106: 	c5ce8351-6075-4562-b2ad-5223163d80f3	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1106: 	3f3b203a-b841-4b91-b59b-1c3804017459	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1107: 	0b757365-1c5e-4bb9-95e2-a0b7f1d20dab	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1107: 	e2b0f5db-9b9c-44f5-99ad-0429a8e74d5e	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-27 1107: 	39ba4321-a45f-4286-a66b-ac37a811ee2f	Error	ENOENT: no such file or directory, stat 'D:\CBC\SEProject\fsd_aug_2024_am\mean\mean_022025_am\07_Router\views\jobs-search\job_search.html'
+ERROR	2025-02-28 1039: 	c351bae4-bbc4-42c2-9869-f387b7cede06	TypeError	Cannot read properties of undefined (reading '0')
+ERROR	2025-03-04 1031: 	cdf92257-2bb3-4df5-8715-7120af055447	SyntaxError	Unexpected token ',', ..."location":,
+        "... is not valid JSON
+ERROR	2025-03-04 1031: 	9522bd96-5be6-41c6-9c6a-bd6191ab215e	SyntaxError	Unexpected token ''', ..."location":'',
+      "... is not valid JSON
+ERROR	2025-03-04 1109: 	0f63e2d6-f18d-4898-a13f-7f180ccaa6cf	TypeError	jobdata.joblisting.find is not a function
+ERROR	2025-03-04 1110: 	0b25c1fa-89ee-4381-a67e-16948da02609	TypeError	jobdata.joblisting.find is not a function
+ERROR	2025-03-04 1113: 	4aa2b013-3f3b-4070-b5c6-1433fefa47a2	TypeError	jobdata.joblisting.find is not a function
+ERROR	2025-03-04 1115: 	60b4c5c3-f3ae-4edb-a73e-24c6071aa976	TypeError	jobdata.joblisting.find is not a function
+ERROR	2025-03-04 1115: 	f8445e34-95cc-4455-aa94-34121b50cab8	TypeError	jobdata.joblisting.find is not a function
+ERROR	2025-03-04 1146: 	31675aad-fe66-4ec3-b33e-ba921ca47ec4	SyntaxError	Expected double-quoted property name in JSON at position 98

@@ -400,3 +400,7 @@ INFO	2025-03-05 0928: 	0b653b09-6841-434b-ab6b-5328b06854ac	GET 	 undefined 	 /j
 INFO	2025-03-05 0928: 	49905142-5cea-4ce3-aa18-9d5acf66d9e9	GET 	 undefined 	 /joblisting/4	/joblisting/4
 INFO	2025-03-05 0928: 	08ec64c5-c65d-485a-b020-40463a5b8a44	GET 	 undefined 	 /joblisting/6	/joblisting/6
 INFO	2025-03-05 0928: 	b568c94f-f384-4b9b-9921-643e2af0e5c3	GET 	 undefined 	 /joblisting/7	/joblisting/7
+INFO	2025-03-05 0937: 	b90462df-9449-46c5-bdb5-3e556a5fbf5b	GET 	 undefined 	 /joblisting	/joblisting
+INFO	2025-03-05 0937: 	a4494eaf-9301-4106-89e7-8806480c13b9	GET 	 undefined 	 /joblisting/7	/joblisting/7
+INFO	2025-03-05 0941: 	f4f1388a-0a5e-4b45-afcb-78eafe9b4645	GET 	 undefined 	 /joblisting	/joblisting
+INFO	2025-03-05 0941: 	98f96958-5a78-4336-b3f2-adb4fd5793b2	GET 	 undefined 	 /joblisting/7	/joblisting/7
