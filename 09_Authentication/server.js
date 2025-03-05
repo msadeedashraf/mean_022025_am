@@ -28,6 +28,7 @@ app.use('/', require('./routes/root'));
 
 //API Routes
 app.use('/joblisting', require('./routes/api/joblisting'));
+app.use('/registerUser', require('./routes/registerUser'));
 
 
 

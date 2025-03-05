@@ -43,6 +43,7 @@ Create a project/app folder
 
 ### To [Hash](https://www.geeksforgeeks.org/what-is-hashing/) your Passwords 
 [bcrypt](https://www.npmjs.com/package/bcrypt)
+>npm install bcrypt
 
 ### API testing clients
 

@@ -404,3 +404,9 @@ INFO	2025-03-05 0937: 	b90462df-9449-46c5-bdb5-3e556a5fbf5b	GET 	 undefined 	 /j
 INFO	2025-03-05 0937: 	a4494eaf-9301-4106-89e7-8806480c13b9	GET 	 undefined 	 /joblisting/7	/joblisting/7
 INFO	2025-03-05 0941: 	f4f1388a-0a5e-4b45-afcb-78eafe9b4645	GET 	 undefined 	 /joblisting	/joblisting
 INFO	2025-03-05 0941: 	98f96958-5a78-4336-b3f2-adb4fd5793b2	GET 	 undefined 	 /joblisting/7	/joblisting/7
+INFO	2025-03-05 1108: 	c0e6e6aa-1754-4ecd-ab8d-a4db2d5d2278	POST 	 undefined 	 /registerUser	/registerUser
+INFO	2025-03-05 1108: 	427d27ad-6a1b-4082-853b-8362f9cfa551	POST 	 undefined 	 /registerUser	/registerUser
+INFO	2025-03-05 1109: 	803d7b58-4f7a-47bb-9803-88c4612be376	POST 	 undefined 	 /registerUser	/registerUser
+INFO	2025-03-05 1111: 	a800f263-53b3-4026-8175-4aee185a77dd	POST 	 undefined 	 /registerUser	/registerUser
+INFO	2025-03-05 1111: 	cf5c66af-0ce3-4091-b0c9-8946e5949a41	POST 	 undefined 	 /registerUser	/registerUser
+INFO	2025-03-05 1112: 	f78576ac-45dd-400c-b80b-bc25fd84989e	POST 	 undefined 	 /registerUser	/registerUser
