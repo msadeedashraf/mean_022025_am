@@ -1,4 +1,4 @@
-fetch ("/data/joblisting.json")
+fetch ("data/joblisting.json")
 .then ((response) => response.json())
 .then ((data) => {
 console.log(data);

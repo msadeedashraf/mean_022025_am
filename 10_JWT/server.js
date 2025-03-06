@@ -13,8 +13,6 @@ const PORT = process.env.PORT|| 3800;
 
 //app.use(express.static(path.join(__dirname, 'public')))
 app.use('/',express.static(path.join(__dirname, 'public')))
-app.use('/09_Authentication/data',express.static(path.join(__dirname, 'data')))
-
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 

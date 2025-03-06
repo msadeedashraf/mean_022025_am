@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "title":"Data Scientist",
+        "company":"XYZ Corp.",
+        "location":"San Francisco, CA",
+        "jobdesc":"We are looking for a skilled and experienced Software Developer to join our team. The ideal candidate should have strong programming skills in Java and experience with web development technologies such as HTML, CSS, and JavaScript. Familiarity with databases and version control systems is a plus."
+    
+    },
+    {
+        "id":2,
+        "title":"Software Developer",
+        "company":"ABC Inc.",
+        "location":"New York, NY",
+        "jobdesc":"We are looking for a skilled and experienced Software Developer to join our team. The ideal candidate should have strong programming skills in Java and experience with web development technologies such as HTML, CSS, and JavaScript. Familiarity with databases and version control systems is a plus."
+    },
+    {
+        "id":3,
+        "title":"Full Stack Developer",
+        "company":"TecZila",
+        "location":"Mississauga, ON",
+        "jobdesc":"We are looking for a skilled and experienced Software Developer to join our team. The ideal candidate should have strong programming skills in Java and experience with web development technologies such as HTML, CSS, and JavaScript. Familiarity with databases and version control systems is a plus."
+    
+    },
+    {
+        "id":4,
+        "title":"Full Stack Developer",
+        "company":"TecZila",
+        "location":"Mississauga, ON",
+        "jobdesc":"We are looking for a skilled and experienced Software Developer to join our team. The ideal candidate should have strong programming skills in Java and experience with web development technologies such as HTML, CSS, and JavaScript. Familiarity with databases and version control systems is a plus."
+    
+    },
+    {
+        "id":5,
+        "title":"Software Developer",
+        "company":"ABC Inc.",
+        "location":"New York, NY",
+        "jobdesc":"We are looking for a skilled and experienced Software Developer to join our team. The ideal candidate should have strong programming skills in Java and experience with web development technologies such as HTML, CSS, and JavaScript. Familiarity with databases and version control systems is a plus."
+    },
+    {
+        "id":6,
+        "title":"Full Stack Developer",
+        "company":"TecZila",
+        "location":"Mississauga, ON",
+        "jobdesc":"We are looking for a skilled and experienced Software Developer to join our team. The ideal candidate should have strong programming skills in Java and experience with web development technologies such as HTML, CSS, and JavaScript. Familiarity with databases and version control systems is a plus."
+    
+    },
+    {
+        "id":7,
+        "title":"Software Developer",
+        "company":"ABC Inc.",
+        "location":"New York, NY",
+        "jobdesc":"We are looking for a skilled and experienced Software Developer to join our team. The ideal candidate should have strong programming skills in Java and experience with web development technologies such as HTML, CSS, and JavaScript. Familiarity with databases and version control systems is a plus."
+    },
+    {
+        "id":8,
+        "title":"Full Stack Developer",
+        "company":"TecZila",
+        "location":"Mississauga, ON",
+        "jobdesc":"We are looking for a skilled and experienced Software Developer to join our team. The ideal candidate should have strong programming skills in Java and experience with web development technologies such as HTML, CSS, and JavaScript. Familiarity with databases and version control systems is a plus."
+    
+    }
+]
+
+
+   

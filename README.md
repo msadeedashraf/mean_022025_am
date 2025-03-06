@@ -59,3 +59,15 @@ Create a project/app folder
 
 ### Design Patterns 
 [GoF](https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns)
+
+
+### JSON Web Tokens  
+[Intro to JSON Web Tokens: ](https://jwt.io/introduction)
+[All You Need to Know About Storing JWT in the Frontend:](https://dev.to/cotter/localstorage-vs-cookies-all-you-need-to-know-about-storing-jwt-tokens-securely-in-the-front-end-15id)
+[NPM jsonwebtoken package:](https://www.npmjs.com/package/jsonwebtoken)
+[NPM cookie-parser package:](https://www.npmjs.com/package/cookie-parser)
+[Deleting Cookies:](https://expressjs.com/en/api.html#res.clearCookie)
+[Cross-Site Scripting (XSS):](https://owasp.org/www-community/attacks/xss/)
+[Cross-Site Request Forgery (CSRF):](https://owasp.org/www-community/attacks/csrf)
+[REST Security Cheat Sheet: ](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html)
+
