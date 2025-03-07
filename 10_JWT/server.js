@@ -5,6 +5,7 @@ const cors = require('cors');
 const {myLogger, logwriter } = require('./middleware/logwriter');
 const errorLogger = require('./middleware/errorLogger');
 const corsOptions = require('./config/corsOptions');
+//const verifyJWT = require('./middleware/verifyJWT');
 
 const express = require("express");
 const exp = require("constants");
@@ -26,6 +27,7 @@ app.use(cors(corsOptions));
 //Routes
 app.use('/', require('./routes/root'));
 
+//app.use(verifyJWT);
 //API Routes
 app.use('/joblisting', require('./routes/api/joblisting'));
 app.use('/registerUser', require('./routes/registerUser'));

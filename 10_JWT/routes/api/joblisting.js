@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const path = require("path");
 const joblistingController = require('../../controllers/joblistingController') ;
-
+const verifyJWT = require('../../middleware/verifyJWT');
 
 /*
 router.route('/')
@@ -13,8 +13,8 @@ router.route('/')
 */
 
 router.route('/')
-    .get(joblistingController.getAllJoblistings)
-    //
+    .get(verifyJWT,joblistingController.getAllJoblistings)//To test JWT (verifyJWT) on get route only
+    //.get(joblistingController.getAllJoblistings)
     .post(joblistingController.createNewJoblisting)
     .put(joblistingController.updateJoblisting)
     .delete(joblistingController.deleteJoblisting);
