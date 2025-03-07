@@ -38,3 +38,7 @@ INFO	2025-03-06 0945: 	5a18786b-90eb-4200-99d9-3af742f5ed40	GET 	 undefined 	 /j
 INFO	2025-03-06 0945: 	c595ab01-7f99-443e-9d1c-79ae5d7c65ff	GET 	 undefined 	 /jobscript.js	/jobscript.js
 INFO	2025-03-06 0945: 	ac840b48-9f20-40c6-86b3-bb2a8b4209ca	GET 	 undefined 	 /job_listing.html	/job_listing.html
 INFO	2025-03-06 0945: 	4c5a5421-85f0-4451-a758-c66ff51fca45	GET 	 undefined 	 /jobscript.js	/jobscript.js
+INFO	2025-03-07 0956: 	2c4fa060-9ca1-46d1-ab73-1264d1679cd1	GET 	 undefined 	 /	/
+INFO	2025-03-07 0957: 	ec78d677-a0b3-421d-a536-16bdb432afd6	GET 	 undefined 	 /privacy.html	/privacy.html
+INFO	2025-03-07 0957: 	8148d8b7-ffd9-4e71-8fcd-27b576fba169	GET 	 undefined 	 /contact.html	/contact.html
+INFO	2025-03-07 0957: 	0c999030-8120-4f17-870d-f6930e39b235	GET 	 undefined 	 /index.html	/index.html

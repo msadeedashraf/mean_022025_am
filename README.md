@@ -71,3 +71,10 @@ Create a project/app folder
 [Cross-Site Request Forgery (CSRF):](https://owasp.org/www-community/attacks/csrf)
 [REST Security Cheat Sheet: ](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html)
 
+
+>npm i jsonwebtoken cookie-parser dotenv
+To Create a Token key using CLI
+>node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
+
+To Create a Token key using Node
+![Key Gen](/Assets/generating-key.png)
