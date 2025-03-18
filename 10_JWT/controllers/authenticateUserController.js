@@ -47,12 +47,16 @@ const handleUserLogin = async (req, res) => {
       },
       process.env.REFRESH_TOKEN_KEY,
       {
-        expiresIn: "40s",
+        expiresIn: "1d",
       }
     );
     
     const otherUsers = userdata.user.filter((a) => a.username !== userFound.username)
+
+    console.log('The refreshed token'+ refreshToken);
+
     const currentUser = {...userFound, refreshToken};
+    console.log('The value of the current user with new token '+currentUser);
     userdata.setUser([...otherUsers, currentUser]);
 
     await fspromises.writeFile(path.join(__dirname,'..', 'model', 'registerUser.json'),JSON.stringify(userdata.user));
